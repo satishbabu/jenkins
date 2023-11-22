@@ -1,6 +1,6 @@
 # Install Jenkins image on to Docker
 
-Pull latest Jenkins docker image and run it
+Pull latest Jenkins docker image and run it..
 
 ```
 docker run -p 8080:8080 -p 5000:5000 -d -v jenkins_home:/var/jenkins_home jenkins/jenkins:lts

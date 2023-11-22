@@ -22,3 +22,15 @@ docker logs <continerid>
 
 Open Jenkins from the browser using `http://localhost:8080/` and follow the prompts to install common plug-ins and create a user.
 
+# Create a pipeline and run it
+Create a multibranch pipeline and provide the github url of this project.  Leave most of the other things on defaults.
+
+Once the pipeline is created it connects to github and scans repository.  You can check the Logs from 'Scan Repository Log'.  It says 
+
+    Checking branch main
+      ‘Jenkinsfile’ not found
+    Does not meet criteria
+
+
+
+
